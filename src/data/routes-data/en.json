@@ -1,0 +1,51 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "user": {
+        "domain": "sitecore",
+        "name": "Anonymous"
+      },
+      "site": {
+        "name": "sitecore-nextjs-disconnected"
+      },
+      "language": "en"
+    },
+    "route": {
+      "name": "home",
+      "displayName": "Home",
+      "templateId": "{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}",
+      "templateName": "Home",
+      "itemId": "{11111111-1111-1111-1111-111111111111}",
+      "fields": {
+        "pageTitle": {
+          "value": "Welcome to Sitecore JSS"
+        },
+        "contentHeading": {
+          "value": "Welcome to Our Digital Solutions Platform"
+        },
+        "metaDescription": {
+          "value": "Professional digital solutions and web development services to transform your business."
+        }
+      },
+      "placeholders": {
+        "jss-main": [
+          {
+            "uid": "{EEEE0000-EEEE-EEEE-EEEE-EEEEEEEEEEEE}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Welcome to JSS"
+              },
+              "content": {
+                "value": "<div class='hero-content'><p class='lead-text'>Welcome to our cutting-edge digital solutions platform powered by Sitecore JSS in disconnected mode!</p><div class='hero-features'><div class='feature-item'><span class='feature-icon'>🚀</span><h4>Fast Performance</h4><p>Lightning-fast web applications</p></div><div class='feature-item'><span class='feature-icon'>🎨</span><h4>Modern Design</h4><p>Beautiful, responsive interfaces</p></div><div class='feature-item'><span class='feature-icon'>🔧</span><h4>Custom Solutions</h4><p>Tailored to your business needs</p></div></div><div class='cta-section'><a href='/about' class='btn btn-primary'>Learn More</a><a href='/contact' class='btn btn-outline'>Get Started</a></div></div>"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

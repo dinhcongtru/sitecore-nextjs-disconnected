@@ -1,0 +1,76 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "user": {
+        "domain": "sitecore",
+        "name": "Anonymous"
+      },
+      "site": {
+        "name": "sitecore-nextjs-disconnected"
+      },
+      "language": "en"
+    },
+    "route": {
+      "name": "contact",
+      "displayName": "Contact Us",
+      "templateId": "{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}",
+      "templateName": "ContactPage",
+      "itemId": "{44444444-4444-4444-4444-444444444444}",
+      "fields": {
+        "pageTitle": {
+          "value": "Contact Us - Get In Touch"
+        },
+        "metaDescription": {
+          "value": "Get in touch with our team. We're here to help with your digital transformation needs."
+        }
+      },
+      "placeholders": {
+        "jss-main": [
+          {
+            "uid": "{CCCC1111-CCCC-CCCC-CCCC-CCCCCCCCCCCC}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Get In Touch"
+              },
+              "content": {
+                "value": "<div class='contact-hero'><p class='lead-text'>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p><div class='cta-section'><a href='mailto:info@company.com' class='btn btn-primary'>Email Us</a><a href='tel:+15551234567' class='btn btn-secondary'>Call Now</a></div></div>"
+              }
+            }
+          },
+          {
+            "uid": "{CCCC2222-CCCC-CCCC-CCCC-CCCCCCCCCCCC}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Contact Information"
+              },
+              "content": {
+                "value": "<div class='contact-info'><div class='contact-grid'><div class='contact-item'><div class='contact-icon'>📍</div><h4>Address</h4><p>123 Business Street<br>Tech City, TC 12345<br>United States</p></div><div class='contact-item'><div class='contact-icon'>📞</div><h4>Phone</h4><p><a href='tel:+15551234567'>+1 (555) 123-4567</a></p><p><a href='tel:+15551234568'>+1 (555) 123-4568</a> (Support)</p></div><div class='contact-item'><div class='contact-icon'>✉️</div><h4>Email</h4><p><a href='mailto:info@company.com'>info@company.com</a></p><p><a href='mailto:support@company.com'>support@company.com</a></p></div><div class='contact-item'><div class='contact-icon'>🕒</div><h4>Business Hours</h4><p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br><strong>Saturday:</strong> 10:00 AM - 4:00 PM<br><strong>Sunday:</strong> Closed</p></div></div></div>"
+              }
+            }
+          },
+          {
+            "uid": "{CCCC3333-CCCC-CCCC-CCCC-CCCCCCCCCCCC}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Why Choose Us?"
+              },
+              "content": {
+                "value": "<div class='why-choose-us'><div class='benefits-grid'><div class='benefit-item'><div class='benefit-icon'>⚡</div><h4>Fast Response</h4><p>We respond to all inquiries within 24 hours</p></div><div class='benefit-item'><div class='benefit-icon'>👥</div><h4>Expert Team</h4><p>Work directly with experienced professionals</p></div><div class='benefit-item'><div class='benefit-icon'>💰</div><h4>Competitive Pricing</h4><p>Quality services at affordable rates</p></div><div class='benefit-item'><div class='benefit-icon'>🎯</div><h4>Tailored Solutions</h4><p>Custom solutions designed for your needs</p></div><div class='benefit-item'><div class='benefit-icon'>🔒</div><h4>Confidential</h4><p>Your information is always secure with us</p></div><div class='benefit-item'><div class='benefit-icon'>📈</div><h4>Proven Results</h4><p>Track record of successful project delivery</p></div></div></div>"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

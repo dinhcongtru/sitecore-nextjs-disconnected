@@ -1,0 +1,76 @@
+{
+  "sitecore": {
+    "context": {
+      "pageEditing": false,
+      "user": {
+        "domain": "sitecore",
+        "name": "Anonymous"
+      },
+      "site": {
+        "name": "sitecore-nextjs-disconnected"
+      },
+      "language": "en"
+    },
+    "route": {
+      "name": "about",
+      "displayName": "About Us",
+      "templateId": "{76036F5E-CBCE-46D1-AF0A-4143F9B557AA}",
+      "templateName": "ContentPage",
+      "itemId": "{22222222-2222-2222-2222-222222222222}",
+      "fields": {
+        "pageTitle": {
+          "value": "About Us - Learn More About Our Company"
+        },
+        "metaDescription": {
+          "value": "Learn more about our innovative company and the team behind our success."
+        }
+      },
+      "placeholders": {
+        "jss-main": [
+          {
+            "uid": "{AAAA1111-AAAA-AAAA-AAAA-AAAAAAAAAAAA}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "About Our Company"
+              },
+              "content": {
+                "value": "<div class='hero-section'><h2>Our Story</h2><p>We are a technology company focused on creating amazing user experiences with cutting-edge solutions.</p><p>Founded in 2020, we've grown from a small startup to a leading provider of digital solutions that transform businesses worldwide.</p></div>"
+              }
+            }
+          },
+          {
+            "uid": "{AAAA2222-AAAA-AAAA-AAAA-AAAAAAAAAAAA}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Our Mission"
+              },
+              "content": {
+                "value": "<div class='mission-section'><p><strong>To empower businesses with innovative technology solutions that drive growth and success.</strong></p><div class='values-grid'><div class='value-item'><h4>🎯 Customer-Centric</h4><p>We put our customers at the heart of everything we do</p></div><div class='value-item'><h4>💡 Innovation</h4><p>Constantly pushing boundaries with creative solutions</p></div><div class='value-item'><h4>🌱 Sustainability</h4><p>Building solutions that are environmentally responsible</p></div></div></div>"
+              }
+            }
+          },
+          {
+            "uid": "{AAAA3333-AAAA-AAAA-AAAA-AAAAAAAAAAAA}",
+            "componentName": "ContentBlock",
+            "dataSource": "",
+            "params": {},
+            "fields": {
+              "heading": {
+                "value": "Meet Our Team"
+              },
+              "content": {
+                "value": "<div class='team-section'><p>Our diverse team of experts brings together years of experience in technology, design, and business strategy.</p><div class='team-stats'><div class='stat'><h3>50+</h3><p>Team Members</p></div><div class='stat'><h3>100+</h3><p>Projects Delivered</p></div><div class='stat'><h3>5+</h3><p>Years Experience</p></div></div></div>"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
