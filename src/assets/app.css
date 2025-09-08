@@ -79,7 +79,6 @@ h6 { font-size: 1rem; }
 
 p {
   margin-bottom: var(--spacing-md);
-  color: var(--text-secondary);
 }
 
 .lead-text {
